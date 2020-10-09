@@ -50,7 +50,7 @@ end
 
 This prevents RSpec from issuing DEPRECATION warnings when it encounters deprecated syntax in `features/step_definitions/web_steps`.
 
-5) You can double-check if everything was installed by running the tasks `rspec` and `cucumber`.
+5) You can double-check if everything was installed by running the tasks `rspec -fd` and `cucumber`. If you get any strange errors, try running them with the prefix `bundle exec`, e.g. `bundle exec rspec -fd` or `bundle exec cucumber`.
 
 **Part 1: add a Director field to Movies**
 
